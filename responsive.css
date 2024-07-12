@@ -1,5 +1,6 @@
 @media screen and (min-width:768px) {
-    body {
+
+    body,html {
         background-image: linear-gradient(to bottom, #4F256D, #4A989B);
     }
 
@@ -10,7 +11,8 @@
     }
 
     .imagem {
-        border-radius: 20px 0 0 20px;
+        width: 45%;
         height: 100%;
+        background-position: left center;
     }
 }
