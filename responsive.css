@@ -1,9 +1,5 @@
 @media screen and (min-width:768px) {
 
-    body,html {
-        background-image: linear-gradient(to bottom, #4F256D, #4A989B);
-    }
-
     main {
         width: 680px;
         height: 280px;
