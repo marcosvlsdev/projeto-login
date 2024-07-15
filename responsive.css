@@ -1,14 +1,37 @@
 @media screen and (min-width:768px) {
 
     main {
-        width: 680px;
+        width: 90vw;
         height: 280px;
-        flex-direction: row;
     }
 
     .imagem {
-        width: 45%;
+         width: 45%;
         height: 100%;
-        background-position: left center;
+        background-position: left center; 
+        float: left;
+    }
+
+     .conteudo {
+        float: right;
+        width: 55%;
+        height: 100%;
     }
 }
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 990px;
+        height: 350px;
+    }
+
+    .imagem {
+        float: right;
+        width: 50%;
+    }
+
+    .conteudo {
+        float: left;
+        width: 50%;
+    }
+} 
