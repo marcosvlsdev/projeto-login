@@ -78,7 +78,7 @@ h1 {
     width: calc(100% - 44px);
     height: 100%;
     padding: 5px;
-    transform: translateY(-8px);
+    transform: translateY(-10px);
 }
 
 input {
