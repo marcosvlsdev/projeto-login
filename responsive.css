@@ -18,6 +18,10 @@
         height: 100%;
     }
 
+    .campo input {
+        transform: translateY(-8px);
+    }
+
     input {
         padding: 10px;
     }
