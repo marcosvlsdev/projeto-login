@@ -2,7 +2,7 @@
 
     main {
         width: 90vw;
-        height: 280px;
+        height: 300px;
     }
 
     .imagem {
@@ -16,6 +16,10 @@
         float: right;
         width: 55%;
         height: 100%;
+    }
+
+    input {
+        padding: 10px;
     }
 }
 
@@ -33,5 +37,13 @@
     .conteudo {
         float: left;
         width: 50%;
+    }
+
+    .conteudo h1 {
+        font-size: 2em;
+    }
+
+    .conteudo p {
+        margin: 10px 0;
     }
 } 

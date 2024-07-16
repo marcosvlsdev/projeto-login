@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login Responsiva</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css"><link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,16 +17,19 @@
         </div>
         <div class="conteudo">
             <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
-                ambiente
+            <p class="principal">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seuambiente
             <p>
-            <form action="login.php" method="post">
-                <p>
-                    <label for="iemail"></label>
-                    <input type="email" name="email" id="iemail" placeholder="Seu E-Mail" autocomplete="email" required>
+            <form action="login.php" method="post" autocomplete="on">
+                <p class="campo">
+                    <label for="iemail"><span class="material-icons">
+                        email
+                        </span></label>
+                    <input type="email" name="email" id="iemail" placeholder="Seu E-Mail" autocomplete="email" required minlength="10">
                 </p>
-                <p>
-                    <label for="isenha"></label>
+                <p class="campo">
+                    <label for="isenha"><span class="material-icons">
+                        vpn_key
+                        </span></label>
                     <input type="password" name="senha" id="isenha" placeholder="Sua Senha"
                         autocomplete="current-password" minlength="8" required>
                 </p>
@@ -33,7 +37,7 @@
                     <input type="submit" value="Entrar" id="ientrar">
                 </p>
                 <p>
-
+                    <a href="esqueci.html">Esqueci a senha <span class="material-icons">help</span></a>
                 </p>
             </form>
         </div>
